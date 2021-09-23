@@ -339,10 +339,49 @@ footer .footer-section .footer-link:active {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    header {
+        padding-bottom: 20rem;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .navbar .navbar-brand{
+        font-size: 2.5rem;
+    }
+    .navbar .nav-link {
+        font-size: 1.2rem;
+    }
+    header {
+        padding-bottom: 25rem;
+    }
+    header .row {
+        margin-top: 3rem;
+    }
+    header .h1 {
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1.2rem;
+    }
+    .section-about .h2 {
+        font-size: 2rem;
+    }
+    .section-about .h6 {
+        font-size: 1rem;
+    }
+    .section-about .row div .h2 {
+        font-size: 1.8rem;
+    }
+    .section-about .row div .promotion-paragraph {
+        font-size: 1.1rem;
+    }
+
+    .section-carousel .h3 {
+        font-size: 1.8rem;
+    }
+}
 
 /*********************
 Animations
